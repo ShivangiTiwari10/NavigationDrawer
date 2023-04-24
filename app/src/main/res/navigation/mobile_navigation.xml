@@ -8,18 +8,23 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.example.navigationdrawer.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Profile"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.navigationdrawer.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="List"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.navigationdrawer.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_Twiker"
+        android:name="com.example.navigationdrawer.ui.twikker.TwikkerFragment"
+        android:label="Twikkeradds"
+        tools:layout="@layout/fragment_twikker" />
+    <fragment
+        android:id="@+id/highlights"
+        android:name="com.example.navigationdrawer.ui.highlights.Highlights"
+        android:label="Highlights"
+        tools:layout="@layout/fragment_highlights" />
 </navigation>
